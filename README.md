@@ -1,38 +1,54 @@
-# Steel_industry_energy_consumption_prediction
+# ⚡ Steel Industry Energy Consumption Prediction
 
-## Project Overview
+## 📌 Project Overview
 
-This project focuses on predicting energy consumption in the steel industry using Machine Learning models. Accurate prediction helps optimize energy usage, reduce costs, and improve efficiency in industrial operations.
+This project predicts **energy consumption in the steel industry** using multiple **regression models** and identifies the best-performing algorithm.
 
-## Objectives
+---
 
--> Predict energy consumption based on operational parameters.
--> Compare multiple ML models and select the best one.
--> Deploy the best model using a web application.
+## 🎯 Objective
 
-## The dataset contains industrial parameters such as:
+* Predict energy consumption
+* Compare different regression models
+* Find the most accurate model
 
-Date & Time,
-Load Type,
-Usage (kWh),
-Lagging/Leading Current,
-Power Factor,
-Temperature,
-Day of Week.
+---
 
-## Machine Learning Models Used
+## 🤖 Models Used
 
-K Nearest Neighbor Regression,
-Linear Regression,
-Decision Tree Regressor,
-Random Forest Regressor,
-Ada Boosting Regressor,
-Gradient Boosting Regressor,
-XGBoost Regressor.
 
-## Files Included
-app.py → Web application,
-best_model.pkl → Trained ML model,
-requirements.txt → Dependencies,
-steel_industry_data.csv → Dataset,
-code.ipynb -> code file.
+* KNN Regressor
+* Decision Tree Regressor
+* Random Forest Regressor (Best Model) 
+* Linear Regression
+* Support Vector Regressor
+* Ada Boosting Regressor
+* Gradient Boosting
+* XGBoost Regressor
+
+---
+
+## 📊 Results
+
+* Random Forest performed the best among all models
+* Provided the **lowest error and highest accuracy**
+* Tree-based models worked better than linear models
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib
+* Streamlit
+  
+---
+
+## 📌 Key Takeaway
+
+Machine learning can effectively predict industrial energy consumption, and **Random Forest gives the best performance for this problem**.
+
+---
+
